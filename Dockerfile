@@ -1,17 +1,17 @@
-# Use official PHP with Apache
 FROM php:8.2-apache
 
-# Enable Apache rewrite
-RUN a2enmod rewrite
+RUN a2enmod rewrite headers
 
-# Set working directory
 WORKDIR /var/www/html
-
-# Copy project files
 COPY . /var/www/html/
 
-# Fix permissions
+# Cache static files
+RUN echo '<IfModule mod_headers.c>\n\
+<FilesMatch "\\.(css|js|jpg|jpeg|png|gif|svg)$">\n\
+Header set Cache-Control "max-age=31536000, public"\n\
+</FilesMatch>\n\
+</IfModule>' > /etc/apache2/conf-enabled/cache.conf
+
 RUN chown -R www-data:www-data /var/www/html
 
-# Expose port
 EXPOSE 80
