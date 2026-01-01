@@ -1,4 +1,6 @@
 <?php
+ob_start();
+<?php
 include __DIR__ . "/includes/auth.php";
 ?>
 <!DOCTYPE html>
@@ -87,3 +89,4 @@ include __DIR__ . "/includes/auth.php";
 
 </body>
 </html>
+
