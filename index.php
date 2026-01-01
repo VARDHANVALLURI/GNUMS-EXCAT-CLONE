@@ -1,4 +1,6 @@
 <?php
+ob_start();
+<?php
 session_start();
 
 if (isset($_SESSION['student'])) {
@@ -29,3 +31,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 </body>
 </html>
+
