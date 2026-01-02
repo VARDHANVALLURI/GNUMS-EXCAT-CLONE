@@ -2,7 +2,7 @@
 ob_start();
 include __DIR__ . "/includes/auth.php";
 
-$pageTitle = "Attendance"; // change title per page
+$pageTitle = "profile"; // change title per page
 include __DIR__ . "/includes/app_header.php";
 ?>
 
@@ -70,6 +70,7 @@ include __DIR__ . "/includes/app_header.php";
 
 </body>
 </html>
+
 
 
 
