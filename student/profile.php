@@ -1,7 +1,11 @@
 <?php
 ob_start();
 include __DIR__ . "/includes/auth.php";
+
+$pageTitle = "Attendance"; // change title per page
+include __DIR__ . "/includes/app_header.php";
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -66,5 +70,6 @@ include __DIR__ . "/includes/auth.php";
 
 </body>
 </html>
+
 
 
