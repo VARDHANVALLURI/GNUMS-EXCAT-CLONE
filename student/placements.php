@@ -2,7 +2,7 @@
 ob_start();
 include __DIR__ . "/includes/auth.php";
 
-$pageTitle = "Attendance"; // change title per page
+$pageTitle = "placements"; // change title per page
 include __DIR__ . "/includes/app_header.php";
 ?>
 
@@ -55,4 +55,5 @@ document.addEventListener("keydown", function (e) {
 
 </body>
 </html>
+
 
