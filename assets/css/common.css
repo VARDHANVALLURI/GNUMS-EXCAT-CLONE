@@ -1160,40 +1160,42 @@ html, body {
     z-index: 1000;
 }
 
-/* Back button container */
-.back-container {
-    width: 36px;
-    height: 36px;
-    border-radius: 50%;
-    background: rgba(255, 255, 255, 0.12);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
+/* ===== ERP TOP BAR ===== */
+
+.erp-topbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  height: 52px;
+  background: #0f172a;
+  display: flex;
+  align-items: center;
+  padding: 0 14px;
+  gap: 12px;
 }
 
-.back-container:active {
-    background: rgba(255, 255, 255, 0.25);
+/* Back button */
+.erp-back {
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255,255,255,0.12);
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
 }
 
-.back-icon {
-    font-size: 18px;
-    color: #fff;
+/* Page title */
+.erp-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
 }
 
-/* Title */
-.app-title {
-    font-size: 18px;
-    font-weight: 500;
-}
-/* 🔴 DISABLE OLD BACK BUTTONS */
-.academic-header a,
-.fees-header a,
-.hostel-header a,
-.results-header a,
-.timetable-header a,
-.profile-header .back-btn {
-  display: none !important;
-}
+
+
 
 
