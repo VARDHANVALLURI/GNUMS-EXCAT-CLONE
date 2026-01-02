@@ -2,7 +2,7 @@
 ob_start();
 include __DIR__ . "/includes/auth.php";
 
-$pageTitle = "Attendance"; // change title per page
+$pageTitle = "hostel"; // change title per page
 include __DIR__ . "/includes/app_header.php";
 ?>
 
@@ -134,4 +134,5 @@ function openMenu(day, btn) {
 
 </body>
 </html>
+
 
