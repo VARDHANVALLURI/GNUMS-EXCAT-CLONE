@@ -1146,3 +1146,45 @@ html, body {
   color: #ef4444;
   font-weight: 600;
 }
+/* ===== APP HEADER ===== */
+.app-header {
+    height: 56px;
+    background: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 0 12px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Back button container */
+.back-container
+.back-container {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.12);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.back-container:active {
+    background: rgba(255, 255, 255, 0.25);
+}
+
+.back-icon {
+    font-size: 18px;
+    color: #fff;
+}
+
+/* Title */
+.app-title {
+    font-size: 18px;
+    font-weight: 500;
+}
+
