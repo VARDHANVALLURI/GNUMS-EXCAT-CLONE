@@ -20,10 +20,13 @@ include __DIR__ . "/includes/app_header.php";
 <div class="exam-page">
 
   <!-- ===== HEADER ===== -->
-  <div class="timetable-header">
-    <a href="dashboard.php">←</a>
-    Exam Schedule
-  </div>
+ <div class="erp-topbar">
+  <a href="dashboard.php" class="erp-back">
+    <i class="bi bi-arrow-left"></i>
+  </a>
+  <div class="erp-title">PERFORMANCE</div>
+</div>
+
 
   <!-- ===== CONTENT (ONLY THIS SCROLLS) ===== -->
   <div class="exam-content">
@@ -112,5 +115,6 @@ include __DIR__ . "/includes/app_header.php";
 
 </body>
 </html>
+
 
 
