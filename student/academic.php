@@ -1,9 +1,6 @@
 <?php
 ob_start();
 include __DIR__ . "/includes/auth.php";
-
-$pageTitle = "academic"; // change title per page
-include __DIR__ . "/includes/app_header.php";
 ?>
 
 <!DOCTYPE html>
@@ -21,10 +18,13 @@ include __DIR__ . "/includes/app_header.php";
 <div class="academic-page">
 
   <!-- ===== HEADER ===== -->
-  <div class="academic-header">
-    <a href="dashboard.php"><i class="bi bi-arrow-left"></i></a>
-    Academic Calendar
-  </div>
+  <div class="erp-topbar">
+  <a href="dashboard.php" class="erp-back">
+    <i class="bi bi-arrow-left"></i>
+  </a>
+  <div class="erp-title">ACADEMICS</div>
+</div>
+
 
   <!-- ===== CONTENT (SCROLL ONLY HERE) ===== -->
   <div class="academic-content">
@@ -112,5 +112,6 @@ include __DIR__ . "/includes/app_header.php";
 
 </body>
 </html>
+
 
 
