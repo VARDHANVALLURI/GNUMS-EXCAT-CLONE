@@ -1,5 +1,11 @@
 <?php
+ob_start();
 include __DIR__ . "/includes/auth.php";
+
+$pageTitle = "Attendance"; // change title per page
+include __DIR__ . "/includes/app_header.php";
+?>
+
 
 /* ==================================================
    YOUR ORIGINAL ATTENDANCE LOGIC (UNCHANGED)
@@ -151,3 +157,4 @@ $subjects = [
 
 </body>
 </html>
+
