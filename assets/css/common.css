@@ -1161,7 +1161,6 @@ html, body {
 }
 
 /* Back button container */
-.back-container
 .back-container {
     width: 36px;
     height: 36px;
@@ -1187,4 +1186,14 @@ html, body {
     font-size: 18px;
     font-weight: 500;
 }
+/* 🔴 DISABLE OLD BACK BUTTONS */
+.academic-header a,
+.fees-header a,
+.hostel-header a,
+.results-header a,
+.timetable-header a,
+.profile-header .back-btn {
+  display: none !important;
+}
+
 
