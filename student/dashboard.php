@@ -17,9 +17,12 @@ include __DIR__ . "/includes/auth.php";
 <div class="page">
 
   <!-- ===== SIMPLE HEADER ===== -->
- <div class="dashboard-header simple">
+<div class="dashboard-header simple">
 
-  <a href="logout.php" class="logout-btn">Logout</a>
+  <div class="app-top-bar">
+    <span class="app-name">GNUMS</span>
+    <a href="logout.php" class="logout-btn">Logout</a>
+  </div>
 
   <img src="../assets/images/profile.jpg"
        class="dash-profile-pic"
@@ -88,5 +91,6 @@ include __DIR__ . "/includes/auth.php";
 
 </body>
 </html>
+
 
 
