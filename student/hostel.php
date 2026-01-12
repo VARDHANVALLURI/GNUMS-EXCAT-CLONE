@@ -56,6 +56,12 @@ include __DIR__ . "/includes/app_header.php";
         <span class="gate-status status-ok">Approved</span>
       </div>
 
+      <div class="gate-card">
+        <b>Personal</b> • HOME<br>
+        08-01-2025 → 20-01-2025<br>
+        <span class="gate-status status-ok">Approved</span>
+      </div>
+
       <div style="text-align:center;font-size:12px;color:#555;margin-top:8px;">
         <b>NOTE:</b> ONLY RECENT GATE PASSES WILL BE SHOWN.
       </div>
@@ -134,5 +140,6 @@ function openMenu(day, btn) {
 
 </body>
 </html>
+
 
 
