@@ -95,6 +95,41 @@ include __DIR__ . "/includes/app_header.php";
   </div>
 </div>
 
+  
+    <!-- ===== NOTIFICATION CARD ===== -->
+    <div class="notify-card">
+      <div class="notify-icon">🔔</div>
+
+      <div class="notify-body">
+        <div class="notify-date">
+          <span>📅 25-12-2025</span>
+        </div>
+
+        <div class="notify-title">
+          VALLURI SRI KRISHNA VARDAN – Hostel OUT at 25-12-2025 01:06 PM
+        </div>
+
+        <div class="notify-text">
+          Dear <b>VALLURI SRI KRISHNA VARDAN</b>,<br><br>
+
+          You have been marked as <b>OUT</b> on <b>08-01-2025 02:06 PM</b> with the following leave details:<br><br>
+
+          • <b>Leave Duration:</b> 08-01-2025 11:30 AM to 20-01-2025 06:30 PM<br>
+          • <b>Leave Reason:</b> PONGAL VACCATION<br>
+          • <b>Approved By:</b> Mr. KALISETTI NEELAYYA<br><br>
+
+          Thanks & Regards,<br>
+          <b>PU</b>
+        </div>
+
+        <div class="toggle-btn" onclick="toggleNote(this)">
+          Show more
+        </div>
+      </div>
+    </div>
+
+</div>
+
 <script>
 function toggleNote(btn) {
   const text = btn.previousElementSibling;
@@ -105,5 +140,6 @@ function toggleNote(btn) {
 
 </body>
 </html>
+
 
 
