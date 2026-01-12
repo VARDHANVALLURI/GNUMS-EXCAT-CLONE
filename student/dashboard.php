@@ -20,7 +20,7 @@ include __DIR__ . "/includes/auth.php";
 <div class="dashboard-header simple">
 
   <div class="app-top-bar">
-    <span class="app-name">GNUMS</span>
+    <span class="app-name">PIET</span>
     <a href="logout.php" class="logout-btn">Logout</a>
   </div>
 
@@ -91,6 +91,7 @@ include __DIR__ . "/includes/auth.php";
 
 </body>
 </html>
+
 
 
 
