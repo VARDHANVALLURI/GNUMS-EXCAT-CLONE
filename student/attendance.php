@@ -14,6 +14,7 @@ include __DIR__ . "/includes/app_header.php";
 
 // MANUAL ATTENDANCE DATA
 $attendance = [
+    "2025-01-11"=>["A","A","A","A","A"],
     "2025-01-10"=>["A","A","A","A","A"],
     "2025-01-09"=>["A","A","A","A","A"],
     "2025-01-08"=>["A","A","A","A","A"],
@@ -187,3 +188,4 @@ $subjects = [
 
 </body>
 </html>
+
