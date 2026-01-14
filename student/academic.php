@@ -105,6 +105,21 @@ include __DIR__ . "/includes/auth.php";
         </div>
       </div>
 
+      <div class="event">
+        <div class="event-dot"><i class="bi bi-check"></i></div>
+        <div class="event-card">
+          <div class="event-date">14-01-2026</div>
+          <div class="event-title">Makara Sankranti-1</div>
+        </div>
+      </div>
+
+      <div class="event">
+        <div class="event-dot"><i class="bi bi-check"></i></div>
+        <div class="event-card">
+          <div class="event-date">15-01-2026</div>
+          <div class="event-title">Makara Sankranti-2</div>
+        </div>
+      </div>
     </div>
 
   </div>
@@ -112,6 +127,7 @@ include __DIR__ . "/includes/auth.php";
 
 </body>
 </html>
+
 
 
 
